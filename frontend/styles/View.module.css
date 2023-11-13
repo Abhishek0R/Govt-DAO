@@ -1,0 +1,131 @@
+.main {
+    background-color: rgb(130, 87, 35);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+
+    background-image: url("https://wallpaperaccess.com/full/1267580.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    height: 100%;
+    background-color: rgb(26, 27, 28);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    /* position: relative; */
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.Headerbutton {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(26, 27, 28);
+    color: #a9840b;
+    margin: 0.5%;
+    padding: 10px;
+    /* width: 60px; */
+    font-size: 12px;
+    cursor: pointer;
+    border-color: #a9840b;
+    width: 120px;
+
+
+}
+
+.Top {
+    margin: -0.5%;
+}
+
+.footer {
+    background-color: black;
+    height: 10rem;
+    color: #a9840b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid white;
+    align-items: center;
+}
+
+.radiobox {
+    border-radius: 500px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 60px;
+    color: #ce9e9e;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #12a0bd; */
+    padding: 60px;
+
+}
+
+.labeling {
+    margin: 5%;
+    color: aliceblue;
+}
+
+.submitButton {
+    margin: 10%;
+    background-color: #3c6c15;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 15%;
+}
+
+.innerFooter {
+    /* color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a9840b;
+
+
+
+}
+
+.inputs {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    background-color: bisque;
+}
+
+.green {
+    border-radius: 500px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: rgb(11, 66, 47);
+}
+
+.endingPhrase {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 1000;
+    margin-bottom: 2%;
+}

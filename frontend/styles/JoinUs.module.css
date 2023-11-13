@@ -1,0 +1,161 @@
+.main {
+    background-color: rgb(241, 232, 221);
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Courier New", Courier, monospace;
+    color: aliceblue;
+
+
+    /* background-image: url("https://wallpaperaccess.com/full/1267675.jpg"); */
+    /* background-image: "./public/JS.jpg"; */
+    background-image: url("https://wallpaperaccess.com/full/3648425.jpg");
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+
+
+}
+
+.Top {
+    margin: -0.5%;
+}
+
+.header {
+    height: 100%;
+    background-color: rgb(26, 27, 28);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    /* position: relative; */
+    border-bottom: 1px solid #ffffff;
+
+}
+
+.Headerbutton {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(26, 27, 28);
+    color: #a9840b;
+    margin: 0.5%;
+    padding: 10px;
+    /* width: 60px; */
+    font-size: 12px;
+    cursor: pointer;
+    border-color: #a9840b;
+    width: 120px;
+
+}
+
+.Bodybutton {
+    padding: 10px;
+    margin-bottom: 3%;
+    width: 200px;
+    border-radius: 5px;
+    /* border: none; */
+    background-color: #022f4a;
+    cursor: pointer;
+    border-color: #9c900c;
+    margin-bottom: 2%;
+    padding: 20px;
+    color: #ffffff;
+
+
+}
+
+.innerFooter {
+    /* color: #ffffff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a9840b;
+
+
+
+}
+
+.green {
+    border-radius: 500px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+    background-color: rgb(11, 66, 47);
+}
+
+.footer {
+    background-color: black;
+    height: 10rem;
+    color: #a9840b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid white;
+    align-items: center;
+}
+
+.contents {
+    color: rgb(37, 9, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    margin: 2%;
+    line-height: 2.5;
+    /* border-color: aquamarine; */
+    /* background-color: aqua; */
+    /* padding: 180px; */
+    padding: 0 25rem;
+}
+
+.endingPhrase {
+    color: #3de23d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.radiobox {
+    border-radius: 500px;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+
+.radioboxDesc {
+    display: block;
+
+    margin-left: -350px;
+    margin-right: auto;
+    color: #9e9319;
+}
+
+.title {
+    font-size: 60px;
+    color: #c4dc39;
+    text-decoration-line: underline;
+
+    /* background-color: #c4dc39; */
+}
+
+.innerContents {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 3.5rem;
+    border-left: #fc5a5a;
+
+}
+
+.innerValue {
+    color: #d39126;
+    font-style: italic;
+}
